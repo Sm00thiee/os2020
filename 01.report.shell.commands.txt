@@ -1,0 +1,73 @@
+Input: echo Hello World
+Output: Hello World
+
+Input: date
+Output: 
+Fri Jan 17 09:36:03 +07 2020
+
+Input: passwd
+Output: 
+Changing password for sm00thiee.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+Input: hostname
+Output: 
+sm00thiee-PC
+
+Input: arch
+Output: 
+x86_64
+
+
+Input: uname -a
+Output: 
+Linux sm00thiee-PC 4.15.0-30deepin-generic #31 SMP Fri Nov 30 04:29:02 UTC 2018 x86_64 GNU/Linux
+
+Input: dmesg
+Output: 
+[    9.706074] wlp3s0: associated
+[    9.719573] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[   11.976741] NET: Registered protocol family 15
+[   12.014912] Initializing XFRM netlink socket
+[   14.727145] partition /media/sm00thiee/Data [8, 5] added, comm[3482]: mount.ntfs
+[   14.780660] partition /media/sm00thiee/9800C14E00C133D2 [8, 4] added, comm[3488]: mount.ntfs
+[   15.187220] Bluetooth: RFCOMM TTY layer initialized
+[   15.187227] Bluetooth: RFCOMM socket layer initialized
+[   15.187231] Bluetooth: RFCOMM ver 1.11
+
+Input: uptime
+Output: 
+09:42:01 up 21 min,  1 user,  load average: 0.66, 0.49, 0.39
+
+Input: whoami
+Output: sm00thiee
+
+Input: who
+Output: 
+sm00thiee tty1         2020-01-17 09:20 (:0)
+
+Input: id
+Output: 
+uid=1000(sm00thiee) gid=1000(sm00thiee) groups=1000(sm00thiee),7(lp),27(sudo),100(users),109(netdev),113(lpadmin),119(scanner),123(sambashare)
+
+Input: last
+Output: 
+sm00thie tty1         :0               Fri Jan 17 08:57 - 08:57  (00:00)
+reboot   system boot  4.15.0-30deepin- Fri Jan 17 15:56 - 08:58  (-6:-58)
+sm00thie tty1         :0               Fri Jan 17 08:50 - 08:56  (00:05)
+reboot   system boot  4.15.0-30deepin- Fri Jan 17 15:49 - 08:56  (-6:-53)
+sm00thie tty1         :0               Mon Jan 13 14:22 - 14:25  (00:02)
+reboot   system boot  4.15.0-30deepin- Mon Jan 13 21:22 - 14:25  (-6:-57)
+sm00thie tty2         :0               Sat Jan 11 11:55 - 13:26  (01:30)
+sm00thie tty1         :0               Fri Jan 10 22:06 - 11:55  (13:49)
+reboot   system boot  4.15.0-30deepin- Sat Jan 11 05:06 - 13:26  (08:20)
+wtmp begins Sat Jan 11 05:06:02 2020
+
+Input: w
+Output:  
+09:47:58 up 27 min,  1 user,  load average: 0.38, 0.33, 0.34
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+sm00thie tty1     :0               09:20   27:17  35.32s  1.31s /usr/bin/startdde
